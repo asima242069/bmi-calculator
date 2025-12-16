@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>BMI Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h2>BMI Calculator</h2>
+
+    <form method="POST" action="/calculate-bmi">
+      <label>Weight (kg)</label>
+      <input type="number" name="weight" required>
+
+      <label>Height (cm)</label>
+      <input type="number" name="height" required>
+
+      <button type="submit">Calculate</button>
+    </form>
+  </div>
+
+</body>
+</html>

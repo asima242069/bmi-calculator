@@ -1,0 +1,15 @@
+body {
+  font-family: Arial;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  border: 1px solid black;
+  padding: 20px;
+  border-radius: 10px;
+  background: rgb(239, 90, 157);
+  text-align: center;
+}
